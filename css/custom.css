@@ -9,6 +9,9 @@
 	position: absolute;
 	padding: none;
 	z-index: -1000;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
 }
 
 .topLine {
@@ -16,6 +19,9 @@
 	position: relative;
 	height: 5px;
 	background: white;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
 }
 
 .orangeLine {
@@ -23,4 +29,58 @@
 	background: orange;
 	position: relative;
 	height: 5px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
 }
+.bottomSpace {
+	width: 100%;
+	background: white;
+	position: relative;
+	height: 30px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+}
+
+.freeSamples {
+	width: 100%;
+	background: white;
+	font-family: 'Indie Flower', cursive;
+	color: orange;
+	position: relative;
+	height: 20px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	padding-left: 30px;
+}
+
+.navLeft {
+	width: 49%;
+	background: white;
+	position: relative;
+	height: 20px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	float: left;
+}
+
+.navRight {
+	width: 49%;
+	background: white;
+	position: relative;
+	height: 20px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	float: right;
+}
+
+.topNav {
+	font-family: 'Indie Flower', cursive;
+	color: black;
+	font-size: 12px;
+}
+
